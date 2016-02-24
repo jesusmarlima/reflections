@@ -1,3 +1,7 @@
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 the repository is a final destiny of your code like -> working directory -> staging area -> repository, the offers a way to organize you your thinkings and code before you commit
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+using the commands git diff with or without some parameters (—-staged..) 
