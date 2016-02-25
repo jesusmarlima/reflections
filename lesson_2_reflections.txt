@@ -1,15 +1,19 @@
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
-the repository is a final destiny of your code like -> working directory -> staging area -> repository, the offers a way to organize you your thinkings and code before you commit
+	the repository is a final destiny of your code like -> working directory -> staging area -> repository, the offers a way to organize you your thinkings and code before you commit
 
 How can you use the staging area to make sure you have one commit per logical change?
 
-using the commands git diff with or without some parameters (—-staged..)
+	using the commands git diff with or without some parameters (—-staged..)
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
-branches help when we have to create a different base for your project, like in languages situations or when you want to implement a new feature that you don’t now if will be in production, or the “same” project to different clients. 
+	branches help when we have to create a different base for your project, like in languages situations or when you want to implement a new feature that you don’t now if will be in production, or the “same” project to different clients. 
 
 How do the diagrams help you visualize the branch structure?
 
-this bring a vision full vision of the commit , so you can see all the tree 
+	this bring a vision full vision of the commit , so you can see all the tree 
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	
+	we have now all commits together in a unique branch
